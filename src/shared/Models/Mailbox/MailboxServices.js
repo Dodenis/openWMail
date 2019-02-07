@@ -5,5 +5,6 @@ module.exports = Object.freeze({
   CONTACTS: 'contacts', // google contacts
   NOTES: 'notes', // google keep
   CALENDAR: 'calendar', // google calendar
-  COMMUNICATION: 'communication' // google hangouts
+  COMMUNICATION: 'communication', // google hangouts
+  MEET: 'meet' // google meet
 })

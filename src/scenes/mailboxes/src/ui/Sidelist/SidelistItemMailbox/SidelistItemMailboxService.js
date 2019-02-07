@@ -47,6 +47,7 @@ module.exports = React.createClass({
         case Mailbox.SERVICES.NOTES: return '../../images/google_services/logo_keep_128px.png'
         case Mailbox.SERVICES.CALENDAR: return '../../images/google_services/logo_calendar_128px.png'
         case Mailbox.SERVICES.COMMUNICATION: return '../../images/google_services/logo_hangouts_128px.png'
+        case Mailbox.SERVICES.MEET: return '../../images/google_services/logo_meet_128px.png'
       }
     }
 

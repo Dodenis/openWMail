@@ -54,10 +54,10 @@ class SettingsStore {
       } catch (ex) { }
 
       return {
-        readColor: isDark ? '#FFFFFF' : '#000000',
-        readBackgroundColor: 'transparent',
-        unreadColor: '#C82018',
-        unreadBackgroundColor: 'transparent'
+        readColor: '#FFFFFF',
+        readBackgroundColor: '#949494',
+        unreadColor: '#FFFFFF',
+        unreadBackgroundColor: '#FF3F3F'
       }
     }
 
