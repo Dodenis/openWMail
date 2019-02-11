@@ -8,8 +8,5 @@ module.exports = Object.freeze({
   COMMUNICATION: 'communication', // google hangouts
   MEET: 'meet', // google meet
   CHAT: 'chat', // google chat
-  MAPS: 'maps', // google maps
-  DOCS: 'docs', // google docs
-  SHEETS: 'sheets', // google sheets
-  SLIDES: 'slides' // google slides
+  MAPS: 'maps' // google maps
 })
