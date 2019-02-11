@@ -33,7 +33,9 @@ class SettingsStore {
         readColor: systemPreferences.isDarkMode() ? '#FFFFFF' : '#000000',
         readBackgroundColor: 'transparent',
         unreadColor: '#C82018',
-        unreadBackgroundColor: 'transparent'
+        unreadBackgroundColor: 'transparent',
+        unreadRadius: 5,
+        readRadius: 5
       }
     } else if (process.platform === 'win32') {
       // Windows is predominantely dark themed, but with no way to check assume it is
@@ -41,7 +43,9 @@ class SettingsStore {
         readColor: '#FFFFFF',
         readBackgroundColor: 'transparent',
         unreadColor: '#C82018',
-        unreadBackgroundColor: 'transparent'
+        unreadBackgroundColor: 'transparent',
+        unreadRadius: 5,
+        readRadius: 5
       }
     } else if (process.platform === 'linux') {
       let isDark = false
@@ -57,7 +61,9 @@ class SettingsStore {
         readColor: '#FFFFFF',
         readBackgroundColor: '#949494',
         unreadColor: '#FFFFFF',
-        unreadBackgroundColor: '#FF3F3F'
+        unreadBackgroundColor: '#FF3F3F',
+        unreadRadius: 5,
+        readRadius: 5
       }
     }
 
@@ -66,7 +72,9 @@ class SettingsStore {
       readColor: '#000000',
       readBackgroundColor: 'transparent',
       unreadColor: '#C82018',
-      unreadBackgroundColor: 'transparent'
+      unreadBackgroundColor: 'transparent',
+      unreadRadius: 5,
+      readRadius: 5
     }
   }
 

@@ -48,6 +48,11 @@ module.exports = React.createClass({
         case Mailbox.SERVICES.CALENDAR: return '../../images/google_services/logo_calendar_128px.png'
         case Mailbox.SERVICES.COMMUNICATION: return '../../images/google_services/logo_hangouts_128px.png'
         case Mailbox.SERVICES.MEET: return '../../images/google_services/logo_meet_128px.png'
+        case Mailbox.SERVICES.CHAT: return '../../images/google_services/logo_chat_128px.png'
+        case Mailbox.SERVICES.MAPS: return '../../images/google_services/logo_maps_128px.png'
+        case Mailbox.SERVICES.DOCS: return '../../images/google_services/logo_docs_128px.png'
+        case Mailbox.SERVICES.SHEETS: return '../../images/google_services/logo_sheets_128px.png'
+        case Mailbox.SERVICES.SLIDES: return '../../images/google_services/logo_slides_128px.png'
       }
     }
 

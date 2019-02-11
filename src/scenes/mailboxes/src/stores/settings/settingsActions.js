@@ -289,6 +289,20 @@ class SettingsActions {
   setDpiMultiplier (val) {
     return this.update(SEGMENTS.TRAY, 'dpiMultiplier', parseInt(val))
   }
+
+  /**
+   * @param val: the radius to apply to the tray icon
+   */
+  setTrayReadRadius (val) {
+    return this.update(SEGMENTS.TRAY, 'readRadius', parseInt(val))
+  }
+
+  /**
+   * @param val: the radius to apply to the tray icon
+   */
+  setTrayUnreadRadius (val) {
+    return this.update(SEGMENTS.TRAY, 'unreadRadius', parseInt(val))
+  }
 }
 
 const actions = alt.createActions(SettingsActions)

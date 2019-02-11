@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9de2abc6-f328-44ac-88d3-dab09b408d5d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/mailboxes/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/mailboxes/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/mailboxes/src/Components/TrayIconEditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/mailboxes/src/Components/TrayIconEditor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/mailboxes/src/Components/TrayRenderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/mailboxes/src/Components/TrayRenderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/mailboxes/src/stores/settings/settingsActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/mailboxes/src/stores/settings/settingsActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/mailboxes/src/stores/settings/settingsStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/mailboxes/src/stores/settings/settingsStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/MailboxWindows.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/MailboxWindows.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/MailboxWizard/ConfigureMailboxServicesDialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/MailboxWizard/ConfigureMailboxServicesDialog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Settings/Accounts/AccountServiceSettings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Settings/Accounts/AccountServiceSettings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Sidelist/SidelistItemMailbox/SidelistItemMailboxService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Sidelist/SidelistItemMailbox/SidelistItemMailboxService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Tray.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Tray.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/Models/Mailbox/Google.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/Models/Mailbox/Google.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/Models/Mailbox/MailboxServices.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/Models/Mailbox/MailboxServices.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/Models/Settings/TraySettings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/Models/Settings/TraySettings.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/bin/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shared/Models/Mailbox/Google.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shared/Models/Mailbox/MailboxServices.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxMeetTab.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxChatTab.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1501">
+              <caret line="79" selection-start-line="79" selection-end-line="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxMapsTab.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxDocsTab.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1102">
+              <caret line="58" column="5" selection-start-line="56" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16492">
+              <caret line="881" column="4" selection-start-line="881" selection-start-column="4" selection-end-line="881" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxSheetsTab.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1102">
+              <caret line="58" column="5" selection-start-line="56" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxSlidesTab.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/Components/TrayIconEditor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1729">
+              <caret line="91" column="14" selection-start-line="91" selection-start-column="14" selection-end-line="92" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/stores/settings/settingsActions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5339">
+              <caret line="281" column="30" selection-start-line="281" selection-start-column="2" selection-end-line="281" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/node_modules/alt/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1824">
+              <caret line="102" column="2" selection-start-line="102" selection-start-column="2" selection-end-line="102" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Settings/General/TraySettingsSection.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/Components/ColorPickerButton.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/node_modules/react-input-range/react-input-range.d.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/package.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/Components/TrayRenderer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5130">
+              <caret line="270" column="37" selection-start-line="270" selection-start-column="37" selection-end-line="270" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shared/credentials.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>earth</find>
+      <find>hangout</find>
+      <find>communication</find>
+      <find>contacts</find>
+      <find>unreadBackgroundColor</find>
+      <find>setTrayUnreadBackgroundColor</find>
+      <find>conso</find>
+      <find>Chat</find>
+      <find>styles</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Maps</replace>
+      <replace>Docs</replace>
+      <replace>Sheets</replace>
+      <replace>Slides</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/MailboxWindows.js" />
+        <option value="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxChatTab.js" />
+        <option value="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxMapsTab.js" />
+        <option value="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/MailboxWizard/ConfigureMailboxServicesDialog.js" />
+        <option value="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Settings/Accounts/AccountServiceSettings.js" />
+        <option value="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Sidelist/SidelistItemMailbox/SidelistItemMailboxService.js" />
+        <option value="$PROJECT_DIR$/src/shared/Models/Mailbox/Google.js" />
+        <option value="$PROJECT_DIR$/src/shared/Models/Mailbox/MailboxServices.js" />
+        <option value="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxDocsTab.js" />
+        <option value="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxSheetsTab.js" />
+        <option value="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxSlidesTab.js" />
+        <option value="$PROJECT_DIR$/src/scenes/mailboxes/src/stores/settings/settingsActions.js" />
+        <option value="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Tray.js" />
+        <option value="$PROJECT_DIR$/src/scenes/mailboxes/src/stores/settings/settingsStore.js" />
+        <option value="$PROJECT_DIR$/src/shared/Models/Settings/TraySettings.js" />
+        <option value="$PROJECT_DIR$/src/scenes/mailboxes/src/Components/TrayIconEditor.js" />
+        <option value="$PROJECT_DIR$/src/scenes/mailboxes/src/Components/TrayRenderer.js" />
+        <option value="$PROJECT_DIR$/src/shared/credentials.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpDebugGeneral" xdebug_force_break_when_no_path_mapping="false" xdebug_force_break_when_outside_project="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1920" />
+    <option name="y" value="26" />
+    <option name="width" value="1920" />
+    <option name="height" value="1001" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="openWMailDod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openWMailDod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openWMailDod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openWMailDod" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openWMailDod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openWMailDod" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openWMailDod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openWMailDod" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="/usr/local/bin/node" />
+    <property name="node.js.path.for.package.standard" value="/usr/local/bin/node" />
+    <property name="node.js.path.for.package.stylelint" value="/usr/bin/node" />
+    <property name="node.js.selected.package.eslint" value="/usr/local/lib/node_modules/eslint" />
+    <property name="node.js.selected.package.standard" value="$PROJECT_DIR$/node_modules/standard" />
+    <property name="node.js.selected.package.stylelint" value="/usr/local/lib/node_modules/stylelint" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9de2abc6-f328-44ac-88d3-dab09b408d5d" name="Default Changelist" comment="" />
+      <created>1549613145206</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549613145206</updated>
+      <workItem from="1549613148752" duration="12849000" />
+      <workItem from="1549874413831" duration="618000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13467000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1920" y="26" width="1920" height="1001" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1398079" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.18963486" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="TypeScript" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxEarthTab.js" />
+    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/MailboxWindows.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="96" column="101" selection-start-line="96" selection-start-column="101" selection-end-line="96" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Settings/Accounts/AccountServiceSettings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="102" column="93" selection-start-line="102" selection-start-column="93" selection-end-line="102" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Sidelist/SidelistItemMailbox/SidelistItemMailboxService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="49" column="93" selection-start-line="49" selection-start-column="93" selection-end-line="49" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/Models/Mailbox/Google.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/Models/Mailbox/MailboxServices.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxMeetTab.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxChatTab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1501">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxMapsTab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxDocsTab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="58" column="5" selection-start-line="56" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16492">
+          <caret line="881" column="4" selection-start-line="881" selection-start-column="4" selection-end-line="881" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxSheetsTab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="58" column="5" selection-start-line="56" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxSlidesTab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/Components/TrayIconEditor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1729">
+          <caret line="91" column="14" selection-start-line="91" selection-start-column="14" selection-end-line="92" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/stores/settings/settingsActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5339">
+          <caret line="281" column="30" selection-start-line="281" selection-start-column="2" selection-end-line="281" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/node_modules/alt/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1824">
+          <caret line="102" column="2" selection-start-line="102" selection-start-column="2" selection-end-line="102" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Settings/General/TraySettingsSection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/Components/ColorPickerButton.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/node_modules/react-input-range/react-input-range.d.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/Components/TrayRenderer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5130">
+          <caret line="270" column="37" selection-start-line="270" selection-start-column="37" selection-end-line="270" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/credentials.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

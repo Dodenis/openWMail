@@ -50,6 +50,8 @@ class TrayRenderer {
         readColor: '#C82018',
         unreadBackgroundColor: '#FFFFFF',
         readBackgroundColor: '#FFFFFF',
+        readRadius: 5,
+        unreadRadius: 5,
         size: 100,
         thick: process.platform === 'win32',
         __defaultMerged__: true
@@ -63,84 +65,34 @@ class TrayRenderer {
   * @return promise with the canvas
   */
   static renderCanvas (config) {
-    if (process.platform === 'linux') {
-      return TrayRenderer.renderCanvasLinux(config)
+    if (process.platform === 'darwin') {
+      return this.renderCanvasDarwin(config)
+    } else if (process.platform === 'win32') {
+      return this.renderCanvasWin32(config)
+    } else if (process.platform === 'linux') {
+      return this.renderCanvasLinux(config)
     } else {
-      return new Promise((resolve, reject) => {
-        config = TrayRenderer.defaultConfig(config)
-
-        const SIZE = config.size * config.pixelRatio
-        const PADDING = SIZE * 0.15
-        const CENTER = SIZE / 2
-        const HAS_COUNT = config.showUnreadCount && config.unreadCount
-        const color = config.unreadCount ? config.unreadColor : config.readColor
-        const backgroundColor = config.unreadCount ? config.unreadBackgroundColor : config.readBackgroundColor
-
-        const canvas = document.createElement('canvas')
-        canvas.width = SIZE
-        canvas.height = SIZE
-        const ctx = canvas.getContext('2d')
-
-        // Circle
-        if (!config.thick || config.thick && HAS_COUNT) {
-          ctx.beginPath()
-          ctx.arc(CENTER, CENTER, (SIZE / 2) - PADDING, 0, 2 * Math.PI, false)
-          ctx.fillStyle = backgroundColor
-          ctx.fill()
-          ctx.lineWidth = SIZE / (config.thick ? 10 : 20)
-          ctx.strokeStyle = color
-          ctx.stroke()
-        }
-
-        // Count or Icon
-        if (HAS_COUNT) {
-          ctx.fillStyle = color
-          ctx.textAlign = 'center'
-          if (config.unreadCount > 99) {
-            ctx.font = `${config.thick ? 'bold ' : ''}${SIZE * 0.6}px Helvetica`
-            ctx.fillText('+', CENTER, CENTER + (SIZE * 0.16))
-          } else if (config.unreadCount < 10) {
-            ctx.font = `${config.thick ? 'bold ' : ''}${SIZE * 0.5}px Helvetica`
-            ctx.fillText(config.unreadCount, CENTER, CENTER + (SIZE * 0.20))
-          } else {
-            ctx.font = `${config.thick ? 'bold ' : ''}${SIZE * 0.4}px Helvetica`
-            ctx.fillText(config.unreadCount, CENTER, CENTER + (SIZE * 0.15))
-          }
-
-          resolve(canvas)
-        } else {
-          const image = B64_SVG_PREFIX + window.btoa(MAIL_SVG.replace('fill="#000000"', `fill="${color}"`))
-          const loader = new window.Image()
-          loader.onload = function () {
-            const ICON_SIZE = SIZE * (config.thick ? 1.0 : 0.5)
-            const POS = (SIZE - ICON_SIZE) / 2
-            ctx.drawImage(loader, POS, POS, ICON_SIZE, ICON_SIZE)
-            resolve(canvas)
-          }
-          loader.src = image
-        }
-      })
+      return Promise.reject(new Error('Unknown Platform'))
     }
   }
 
   /**
-  * Renders the tray icon as a canvas
-  * @param config: the config for rendering
-  * @return promise with the canvas
-  */
-  static renderCanvasLinux (config) {
+   * Renders the tray icon as a canvas with darwin tweaks
+   * @param config: the config for rendering
+   * @return promise with the canvas
+   */
+  static renderCanvasDarwin (config) {
     return new Promise((resolve, reject) => {
       const SIZE = config.size * config.pixelRatio
       const PADDING = Math.floor(SIZE * 0.15)
       const REAL_CENTER = SIZE / 2
       const CENTER = Math.round(REAL_CENTER)
       const STROKE_WIDTH = Math.max(1, Math.round(SIZE * 0.05))
-      const SHOW_COUNT = config.showUnreadCount && (config.unreadCount > 0)
-      const BORDER_RADIUS = Math.round(SIZE * 0.1)
+      const RADIUS = config.unreadCount ? config.unreadRadius : config.readRadius
+      const BORDER_RADIUS = Math.round(SIZE * (RADIUS / 10))
+      const SHOW_COUNT = config.showUnreadCount && config.unreadCount > 0
       const COLOR = config.unreadCount ? config.unreadColor : config.readColor
       const BACKGROUND_COLOR = config.unreadCount ? config.unreadBackgroundColor : config.readBackgroundColor
-
-      console.log(config);
 
       const canvas = document.createElement('canvas')
       canvas.width = SIZE
@@ -165,6 +117,139 @@ class TrayRenderer {
         if (config.unreadCount > 0) {
           if (config.unreadCount > 99) { // 99+
             ctx.font = `${Math.round(SIZE * 0.8)}px Helvetica`
+            ctx.fillText('●', CENTER, Math.round(CENTER + (SIZE * 0.22)))
+          } else if (config.unreadCount < 10) { // 0 - 9
+            ctx.font = `${Math.round(SIZE * 0.6)}px Helvetica`
+            ctx.fillText(config.unreadCount, CENTER, Math.round(CENTER + (SIZE * 0.2)))
+          } else { // 10 - 99
+            ctx.font = `${Math.round(SIZE * 0.52)}px Helvetica`
+            ctx.fillText(config.unreadCount, CENTER, Math.round(CENTER + (SIZE * 0.17)))
+          }
+        } else { // Unread activity
+          ctx.font = `${Math.round(SIZE * 0.8)}px Helvetica`
+          ctx.fillText('●', CENTER, Math.round(CENTER + (SIZE * 0.22)))
+        }
+        resolve(canvas)
+      } else {
+        const loader = new window.Image()
+        const ICON_SIZE = SIZE * (config.thick ? 1.0 : 0.5)
+        const ICON_POS = (SIZE - ICON_SIZE) / 2
+        loader.onload = function () {
+          ctx.drawImage(loader, ICON_POS, ICON_POS, ICON_SIZE, ICON_SIZE)
+          resolve(canvas)
+        }
+        loader.src = B64_SVG_PREFIX + window.btoa(MAIL_SVG.replace('fill="#000000"', `fill="${COLOR}"`))
+      }
+    })
+  }
+
+  /**
+   * Renders the tray icon as a canvas with win32 tweaks
+   * @param config: the config for rendering
+   * @return promise with the canvas
+   */
+  static renderCanvasWin32 (config) {
+    return new Promise((resolve, reject) => {
+      const SIZE = config.size * config.pixelRatio
+      const REAL_CENTER = SIZE / 2
+      const CENTER = Math.round(REAL_CENTER)
+      const STROKE_WIDTH = Math.max(2, Math.round(SIZE * 0.15))
+      const SHOW_COUNT = config.showUnreadCount && config.unreadCount
+      const COLOR = config.unreadCount ? config.unreadColor : config.readColor
+      const BACKGROUND_COLOR = config.unreadCount ? config.unreadBackgroundColor : config.readBackgroundColor
+
+      const canvas = document.createElement('canvas')
+      canvas.width = SIZE
+      canvas.height = SIZE
+      const ctx = canvas.getContext('2d')
+
+      // Circle
+      ctx.beginPath()
+      ctx.fillStyle = BACKGROUND_COLOR
+      ctx.strokeStyle = COLOR
+      ctx.lineWidth = STROKE_WIDTH
+      this.roundRect(ctx, STROKE_WIDTH, STROKE_WIDTH, SIZE - (2 * STROKE_WIDTH), SIZE - (2 * STROKE_WIDTH), 0, true, true)
+
+      if (SHOW_COUNT) {
+        ctx.fillStyle = COLOR
+        ctx.textAlign = 'center'
+        if (config.unreadCount > 0) {
+          if (config.unreadCount > 99) { // 99+
+            ctx.font = `Bold ${Math.round(SIZE * 0.8)}px Helvetica`
+            ctx.fillText('●', CENTER, Math.round(CENTER + (SIZE * 0.23)))
+          } else if (config.unreadCount < 10) { // 0 - 9
+            ctx.font = `Bold ${Math.round(SIZE * 0.7)}px Helvetica`
+            ctx.fillText(config.unreadCount, CENTER, Math.round(CENTER + (SIZE * 0.25)))
+          } else { // 10 - 99
+            ctx.font = `Bold ${Math.round(SIZE * 0.55)}px Helvetica`
+            ctx.fillText(config.unreadCount, CENTER, Math.round(CENTER + (SIZE * 0.17)))
+          }
+        } else { // Unread activity
+          ctx.font = `Bold ${Math.round(SIZE * 0.8)}px Helvetica`
+          ctx.fillText('●', CENTER, Math.round(CENTER + (SIZE * 0.23)))
+        }
+        resolve(canvas)
+      } else {
+        const loader = new window.Image()
+        const ICON_SIZE = SIZE * (config.thick ? 1.0 : 0.5)
+        const ICON_POS = (SIZE - ICON_SIZE) / 2
+        loader.onload = function () {
+          ctx.drawImage(loader, ICON_POS, ICON_POS, ICON_SIZE, ICON_SIZE)
+          resolve(canvas)
+        }
+        loader.src = B64_SVG_PREFIX + window.btoa(MAIL_SVG.replace('fill="#000000"', `fill="${COLOR}"`))
+      }
+    })
+  }
+
+  /**
+  * Renders the tray icon as a canvas
+  * @param config: the config for rendering
+  * @return promise with the canvas
+  */
+  static renderCanvasLinux (config) {
+    return new Promise((resolve, reject) => {
+      const SIZE = config.size * config.pixelRatio
+      const PADDING = Math.floor(SIZE * 0.15)
+      const REAL_CENTER = SIZE / 2
+      const CENTER = Math.round(REAL_CENTER)
+      const STROKE_WIDTH = Math.max(1, Math.round(SIZE * 0.05))
+      const SHOW_COUNT = config.showUnreadCount && config.unreadCount > 0
+      const RADIUS = config.unreadCount ? config.unreadRadius : config.readRadius
+      const BORDER_RADIUS = Math.round(SIZE * (RADIUS / 10))
+      const COLOR = config.unreadCount ? config.unreadColor : config.readColor
+      const BACKGROUND_COLOR = config.unreadCount ? config.unreadBackgroundColor : config.readBackgroundColor
+
+      const canvas = document.createElement('canvas')
+      canvas.width = SIZE
+      canvas.height = SIZE
+      const ctx = canvas.getContext('2d')
+
+      // Trick to turn off AA
+      if (config.pixelRatio % 2 !== 0) {
+        ctx.translate(0.5, 0.5)
+      }
+
+      // Circle
+      ctx.beginPath()
+      ctx.fillStyle = BACKGROUND_COLOR
+      ctx.strokeStyle = COLOR
+      ctx.lineWidth = STROKE_WIDTH
+
+      if (RADIUS === 5) {
+        ctx.arc(CENTER, CENTER, (SIZE / 2) - PADDING, 0, 2 * Math.PI, false)
+        ctx.fill()
+        ctx.stroke()
+      } else {
+        this.roundRect(ctx, PADDING, PADDING, SIZE - (2 * PADDING), SIZE - (2 * PADDING), BORDER_RADIUS, true, true)
+      }
+
+      if (SHOW_COUNT) {
+        ctx.fillStyle = COLOR
+        ctx.textAlign = 'center'
+        if (config.unreadCount > 0) {
+          if (config.unreadCount > 99) { // 99+
+            ctx.font = `${Math.round(SIZE * 0.8)}px Helvetica`
             ctx.fillText('●', CENTER, Math.round(CENTER + (SIZE * 0.21)))
           } else if (config.unreadCount < 10) { // 0-9
             ctx.font = `${Math.round(SIZE * 0.6)}px Helvetica`
@@ -181,8 +266,10 @@ class TrayRenderer {
         resolve(canvas)
       } else {
         const loader = new window.Image()
+        const ICON_SIZE = SIZE * (config.thick ? 1.0 : 0.5)
+        const ICON_POS = (SIZE - ICON_SIZE) / 2
         loader.onload = function () {
-          ctx.drawImage(loader, PADDING, PADDING, SIZE - (2 * PADDING), SIZE - (2 * PADDING))
+          ctx.drawImage(loader, ICON_POS, ICON_POS, ICON_SIZE, ICON_SIZE)
           resolve(canvas)
         }
         loader.src = B64_SVG_PREFIX + window.btoa(MAIL_SVG.replace('fill="#000000"', `fill="${COLOR}"`))

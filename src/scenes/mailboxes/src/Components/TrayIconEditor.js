@@ -1,5 +1,5 @@
 const React = require('react')
-const { FontIcon } = require('material-ui')
+const { FontIcon, Slider } = require('material-ui')
 const {Row, Col} = require('./Grid')
 const ColorPickerButton = require('./ColorPickerButton')
 const TrayPreview = require('./TrayPreview')
@@ -42,6 +42,10 @@ module.exports = React.createClass({
   render () {
     const {tray, trayPreviewStyles, ...passProps} = this.props
 
+    const trayRadius = {
+      read: tray.readRadius,
+      unread: tray.unreadRadius,
+    }
     return (
       <div {...passProps}>
         <Row>
@@ -67,6 +71,16 @@ module.exports = React.createClass({
                 value={tray.readBackgroundColor}
                 onChange={(col) => settingsActions.setTrayReadBackgroundColor(col.rgbaStr)} />
             </div>
+            <div>
+                <Slider
+                  max={5}
+                  min={0}
+                  value={trayRadius.read}
+                  step={1}
+                  onChange={(event, value) => trayRadius.read = value}
+                  onDragStop={(event) => settingsActions.setTrayReadRadius(trayRadius.read)}
+                  />
+            </div>
             <TrayPreview size={100} style={trayPreviewStyles} config={{
               pixelRatio: 1,
               unreadCount: 0,
@@ -75,6 +89,8 @@ module.exports = React.createClass({
               readColor: tray.readColor,
               unreadBackgroundColor: tray.readBackgroundColor,
               readBackgroundColor: tray.readBackgroundColor,
+              unreadRadius: tray.unreadRadius,
+              readRadius: tray.readRadius,
               size: 100
             }} />
           </Col>
@@ -100,6 +116,16 @@ module.exports = React.createClass({
                 value={tray.unreadBackgroundColor}
                 onChange={(col) => settingsActions.setTrayUnreadBackgroundColor(col.rgbaStr)} />
             </div>
+            <div>
+              <Slider
+                max={5}
+                min={0}
+                value={trayRadius.unread}
+                step={1}
+                onChange={(event, value) => trayRadius.unread = value}
+                onDragStop={(event) => settingsActions.setTrayUnreadRadius(trayRadius.unread)}
+              />
+            </div>
             <TrayPreview size={100} style={trayPreviewStyles} config={{
               pixelRatio: 1,
               unreadCount: 1,
@@ -108,6 +134,8 @@ module.exports = React.createClass({
               readColor: tray.readColor,
               unreadBackgroundColor: tray.unreadBackgroundColor,
               readBackgroundColor: tray.readBackgroundColor,
+              unreadRadius: tray.unreadRadius,
+              readRadius: tray.readRadius,
               size: 100
             }} />
           </Col>

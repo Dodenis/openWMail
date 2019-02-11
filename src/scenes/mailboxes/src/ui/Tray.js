@@ -137,7 +137,9 @@ module.exports = React.createClass({
       'readColor',
       'readBackgroundColor',
       'showUnreadCount',
-      'dpiMultiplier'
+      'dpiMultiplier',
+      'readRadius',
+      'unreadRadius'
     ].findIndex((k) => {
       return this.props.traySettings[k] !== nextProps.traySettings[k]
     }) !== -1
@@ -235,6 +237,8 @@ module.exports = React.createClass({
       readColor: traySettings.readColor,
       unreadBackgroundColor: traySettings.unreadBackgroundColor,
       readBackgroundColor: traySettings.readBackgroundColor,
+      unreadRadius: traySettings.unreadRadius,
+      readRadius: traySettings.readRadius,
       size: this.trayIconSize(),
       pixelRatio: this.trayIconPixelRatio()
     }).then((image) => {

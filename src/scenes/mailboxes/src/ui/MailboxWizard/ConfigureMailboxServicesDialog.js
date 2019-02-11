@@ -108,6 +108,12 @@ module.exports = React.createClass({
         case Mailbox.SERVICES.NOTES: return 'Google Keep'
         case Mailbox.SERVICES.CALENDAR: return 'Google Calendar'
         case Mailbox.SERVICES.COMMUNICATION: return 'Google Hangouts'
+        case Mailbox.SERVICES.MEET: return 'Google Meet'
+        case Mailbox.SERVICES.CHAT: return 'Google Chat'
+        case Mailbox.SERVICES.MAPS: return 'Google Maps'
+        case Mailbox.SERVICES.DOCS: return 'Google Docs'
+        case Mailbox.SERVICES.SHEETS: return 'Google Sheets'
+        case Mailbox.SERVICES.SLIDES: return 'Google Slides'
       }
     }
 
@@ -127,6 +133,12 @@ module.exports = React.createClass({
         case Mailbox.SERVICES.NOTES: return '../../images/google_services/logo_keep_128px.png'
         case Mailbox.SERVICES.CALENDAR: return '../../images/google_services/logo_calendar_128px.png'
         case Mailbox.SERVICES.COMMUNICATION: return '../../images/google_services/logo_hangouts_128px.png'
+        case Mailbox.SERVICES.MEET: return '../../images/google_services/logo_meet_128px.png'
+        case Mailbox.SERVICES.CHAT: return '../../images/google_services/logo_chat_128px.png'
+        case Mailbox.SERVICES.MAPS: return '../../images/google_services/logo_maps_128px.png'
+        case Mailbox.SERVICES.DOCS: return '../../images/google_services/logo_docs_128px.png'
+        case Mailbox.SERVICES.SHEETS: return '../../images/google_services/logo_sheets_128px.png'
+        case Mailbox.SERVICES.SLIDES: return '../../images/google_services/logo_slides_128px.png'
       }
     }
 

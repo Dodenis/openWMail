@@ -25,6 +25,8 @@ class TraySettings extends Model {
   get readBackgroundColor () { return this._value_('readBackgroundColor', this.__themedDefaults__.readBackgroundColor) }
   get unreadColor () { return this._value_('unreadColor', this.__themedDefaults__.unreadColor) }
   get unreadBackgroundColor () { return this._value_('unreadBackgroundColor', this.__themedDefaults__.unreadBackgroundColor) }
+  get unreadRadius () { return this._value_('unreadRadius', this.__themedDefaults__.unreadRadius) }
+  get readRadius () { return this._value_('readRadius', this.__themedDefaults__.readRadius) }
 
   get dpiMultiplier () {
     let defaultValue = 1
