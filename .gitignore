@@ -13,3 +13,4 @@ prime
 stage
 *.snap
 *.log
+.idea/
