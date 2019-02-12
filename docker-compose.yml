@@ -6,6 +6,7 @@ services:
     working_dir: /srv
     volumes:
       - .:/srv
+      - /tmp/.X11-unix:/tmp/.X11-unix
       # Entrypoint
       - ./docker/node/entrypoint-node.sh:/usr/local/bin/entrypoint.sh:ro
     entrypoint: entrypoint.sh

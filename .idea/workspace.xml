@@ -3,18 +3,48 @@
   <component name="ChangeListManager">
     <list default="true" id="9de2abc6-f328-44ac-88d3-dab09b408d5d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/app.icns" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/app.icns" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/app.ico" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/app.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/app.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/app.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/app.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/app.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/app_128.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/app_128.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/app_16.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/app_16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/app_24.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/app_24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/app_256.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/app_256.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/app_32.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/app_32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/app_48.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/app_48.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/app_512.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/app_512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/app_64.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/app_64.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/app_96.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/app_96.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/google_services/logo_docs_128px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/google_services/logo_docs_32px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/google_services/logo_docs_48px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/google_services/logo_docs_64px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/google_services/logo_earth_128px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/google_services/logo_earth_256px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/google_services/logo_earth_32px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/google_services/logo_earth_48px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/google_services/logo_earth_64px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/google_services/logo_sheets_128px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/google_services/logo_sheets_32px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/google_services/logo_sheets_48px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/google_services/logo_sheets_64px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/google_services/logo_slides_128px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/google_services/logo_slides_32px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/google_services/logo_slides_48px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/google_services/logo_slides_64px.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/node/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/node/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/node/js-eslint" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxDocsTab.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxSheetsTab.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxSlidesTab.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/MailboxWindows.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/MailboxWindows.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/MailboxWizard/ConfigureMailboxServicesDialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/MailboxWizard/ConfigureMailboxServicesDialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Settings/Accounts/AccountServiceSettings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Settings/Accounts/AccountServiceSettings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Sidelist/SidelistItemMailbox/SidelistItemMailboxService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Sidelist/SidelistItemMailbox/SidelistItemMailboxService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/Models/Mailbox/Google.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/Models/Mailbox/Google.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/Models/Mailbox/MailboxServices.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/Models/Mailbox/MailboxServices.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packager/ElectronBuilder.js" beforeDir="false" afterPath="$PROJECT_DIR$/packager/ElectronBuilder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snap/gui/app.png" beforeDir="false" afterPath="$PROJECT_DIR$/snap/gui/app.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snap/snapcraft.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/snap/snapcraft.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/src/app/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/src/app/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/mailboxes/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/mailboxes/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/mailboxes/src/stores/settings/settingsStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/mailboxes/src/stores/settings/settingsStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/mailboxes/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/mailboxes/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/platform/src/webviewInjection/Browser/Spellchecker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/platform/src/webviewInjection/Browser/Spellchecker.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,38 +56,56 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxMapsTab.js">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+            <state relative-caret-position="266">
+              <caret line="56" column="34" lean-forward="true" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Settings/General/TraySettingsSection.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/packager/deb/postinst">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/packager/linux/openwmail.desktop">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker/node/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/src/shared/Models/Settings/TraySettings.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="228">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+        <entry file="file://$PROJECT_DIR$/snap/snapcraft.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            <state relative-caret-position="266">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/snap/gui/app.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/snap/gui/openWMail.desktop">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/packager/ElectronBuilder.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="86" column="63" selection-start-line="86" selection-start-column="63" selection-end-line="86" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -68,109 +116,79 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/packager/constants.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/packager/Distribution.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4700" />
+            <state relative-caret-position="-627" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/MailboxTabSleepable.js">
+        <entry file="file://$PROJECT_DIR$/packager/TaskLogger.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="101" column="25" selection-start-line="101" selection-start-column="15" selection-end-line="101" selection-end-column="25" />
-            </state>
+            <state relative-caret-position="-221" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/MailboxSearch.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-798" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/MailboxTargetUrl.js">
+        <entry file="file://$PROJECT_DIR$/packager/ReleaseAssets.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/MailboxTab.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7980" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/MailboxWindows.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="93" column="101" selection-start-line="93" selection-start-column="101" selection-end-line="93" selection-end-column="101" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="78" column="47" selection-start-line="78" selection-start-column="41" selection-end-line="78" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="596">
-              <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/webpack.config.js">
+        <entry file="file://$PROJECT_DIR$/packager/Licenses.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/scenes/mailboxes/mailboxes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="908581">
-              <caret line="47943" selection-start-line="47943" selection-end-line="47943" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/package.json">
+        <entry file="file://$PROJECT_DIR$/packager/JSBuilder.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/Components/TrayRenderer.js">
+        <entry file="file://$PROJECT_DIR$/src/scenes/platform/src/webviewInjection/Browser/Spellchecker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5130">
-              <caret line="270" column="37" selection-start-line="270" selection-start-column="37" selection-end-line="270" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="48" column="28" lean-forward="true" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+            <state relative-caret-position="133">
+              <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/shared/credentials.js">
+        <entry file="file://$PROJECT_DIR$/node_modules/nodehun/.gitmodules">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/nodehun/appveyor.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/nodehun/binding.gyp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/nodehun/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="-631" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -196,6 +214,15 @@
       <find>isLastCharLower</find>
       <find>uglify-js</find>
       <find>extract-text-webpack-plugin</find>
+      <find>siphonIPCMessage</find>
+      <find>Failed to initialize spellchecker</find>
+      <find>dictionaryExcludes</find>
+      <find>spell</find>
+      <find>elevated-error</find>
+      <find>wmail-sp</find>
+      <find>Nodehun</find>
+      <find>es2015</find>
+      <find>spel</find>
     </findStrings>
     <replaceStrings>
       <replace>Maps</replace>
@@ -206,6 +233,7 @@
     <dirStrings>
       <dir>$PROJECT_DIR$/src/scenes/mailboxes/node_modules</dir>
       <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/packager</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -220,12 +248,9 @@
         <option value="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxSlidesTab.js" />
         <option value="$PROJECT_DIR$/src/scenes/mailboxes/src/stores/settings/settingsActions.js" />
         <option value="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Tray.js" />
-        <option value="$PROJECT_DIR$/src/scenes/mailboxes/src/stores/settings/settingsStore.js" />
         <option value="$PROJECT_DIR$/src/shared/Models/Settings/TraySettings.js" />
         <option value="$PROJECT_DIR$/src/scenes/mailboxes/src/Components/TrayIconEditor.js" />
         <option value="$PROJECT_DIR$/src/scenes/mailboxes/src/Components/TrayRenderer.js" />
-        <option value="$PROJECT_DIR$/snap/snapcraft.yaml" />
-        <option value="$PROJECT_DIR$/src/shared/credentials.js" />
         <option value="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxDocsTab.js" />
         <option value="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/MailboxWindows.js" />
         <option value="$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Settings/Accounts/AccountServiceSettings.js" />
@@ -235,17 +260,25 @@
         <option value="$PROJECT_DIR$/src/shared/Models/Mailbox/Google.js" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/docker/node/Dockerfile" />
+        <option value="$PROJECT_DIR$/src/scenes/mailboxes/src/Components/WebView.js" />
+        <option value="$PROJECT_DIR$/src/app/node_modules/wmail-spellchecker/index.js" />
+        <option value="$PROJECT_DIR$/src/app/package.json" />
+        <option value="$PROJECT_DIR$/src/shared/credentials.js" />
         <option value="$PROJECT_DIR$/src/scenes/mailboxes/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/scenes/mailboxes/package.json" />
+        <option value="$PROJECT_DIR$/packager/ElectronBuilder.js" />
+        <option value="$PROJECT_DIR$/snap/snapcraft.yaml" />
+        <option value="$PROJECT_DIR$/src/scenes/platform/src/webviewInjection/Browser/Spellchecker.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/scenes/mailboxes/src/stores/settings/settingsStore.js" />
       </list>
     </option>
   </component>
   <component name="PhpDebugGeneral" xdebug_force_break_when_no_path_mapping="false" xdebug_force_break_when_outside_project="false" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1920" />
-    <option name="y" value="26" />
     <option name="width" value="1920" />
-    <option name="height" value="1001" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -259,39 +292,6 @@
             <path>
               <item name="openWMailDod" type="b2602c69:ProjectViewProjectNode" />
               <item name="openWMailDod" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="openWMailDod" type="b2602c69:ProjectViewProjectNode" />
-              <item name="openWMailDod" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="openWMailDod" type="b2602c69:ProjectViewProjectNode" />
-              <item name="openWMailDod" type="462c0819:PsiDirectoryNode" />
-              <item name="docker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="openWMailDod" type="b2602c69:ProjectViewProjectNode" />
-              <item name="openWMailDod" type="462c0819:PsiDirectoryNode" />
-              <item name="docker" type="462c0819:PsiDirectoryNode" />
-              <item name="node" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="openWMailDod" type="b2602c69:ProjectViewProjectNode" />
-              <item name="openWMailDod" type="462c0819:PsiDirectoryNode" />
-              <item name="packager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="openWMailDod" type="b2602c69:ProjectViewProjectNode" />
-              <item name="openWMailDod" type="462c0819:PsiDirectoryNode" />
-              <item name="packager" type="462c0819:PsiDirectoryNode" />
-              <item name="deb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="openWMailDod" type="b2602c69:ProjectViewProjectNode" />
-              <item name="openWMailDod" type="462c0819:PsiDirectoryNode" />
-              <item name="packager" type="462c0819:PsiDirectoryNode" />
-              <item name="linux" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="openWMailDod" type="b2602c69:ProjectViewProjectNode" />
@@ -315,22 +315,39 @@
               <item name="openWMailDod" type="b2602c69:ProjectViewProjectNode" />
               <item name="openWMailDod" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
+              <item name="scenes" type="462c0819:PsiDirectoryNode" />
+              <item name="mailboxes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="openWMailDod" type="b2602c69:ProjectViewProjectNode" />
               <item name="openWMailDod" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
+              <item name="scenes" type="462c0819:PsiDirectoryNode" />
+              <item name="mailboxes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="openWMailDod" type="b2602c69:ProjectViewProjectNode" />
               <item name="openWMailDod" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
-              <item name="Mailbox" type="462c0819:PsiDirectoryNode" />
+              <item name="scenes" type="462c0819:PsiDirectoryNode" />
+              <item name="mailboxes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="Settings" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="openWMailDod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openWMailDod" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scenes" type="462c0819:PsiDirectoryNode" />
+              <item name="mailboxes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="Settings" type="462c0819:PsiDirectoryNode" />
+              <item name="General" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -340,7 +357,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../openWMail" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="/usr/local/bin/node" />
     <property name="node.js.path.for.package.standard" value="/usr/local/bin/node" />
@@ -351,7 +368,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
@@ -382,18 +399,18 @@
       <option name="presentableId" value="Default" />
       <updated>1549613145206</updated>
       <workItem from="1549613148752" duration="12849000" />
-      <workItem from="1549874413831" duration="10497000" />
+      <workItem from="1549874413831" duration="19067000" />
+      <workItem from="1549960835230" duration="10845000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23346000" />
+    <option name="totallyTimeSpent" value="42761000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="26" width="1920" height="1001" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21291356" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1905016" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -410,6 +427,7 @@
       <window_info anchor="bottom" id="TypeScript" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -420,173 +438,13 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxEarthTab.js" />
-    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Settings/Accounts/AccountServiceSettings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="102" column="93" selection-start-line="102" selection-start-column="93" selection-end-line="102" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Sidelist/SidelistItemMailbox/SidelistItemMailboxService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="49" column="93" selection-start-line="49" selection-start-column="93" selection-end-line="49" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shared/Models/Mailbox/Google.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shared/Models/Mailbox/MailboxServices.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxMeetTab.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxChatTab.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1501">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16492">
-          <caret line="881" column="4" selection-start-line="881" selection-start-column="4" selection-end-line="881" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxSheetsTab.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="58" column="5" selection-start-line="56" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxSlidesTab.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/Components/TrayIconEditor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1729">
-          <caret line="91" column="14" selection-start-line="91" selection-start-column="14" selection-end-line="92" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/stores/settings/settingsActions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5339">
-          <caret line="281" column="30" selection-start-line="281" selection-start-column="2" selection-end-line="281" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/node_modules/alt/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1824">
-          <caret line="102" column="2" selection-start-line="102" selection-start-column="2" selection-end-line="102" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Settings/General/TraySettingsSection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/Components/ColorPickerButton.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/node_modules/react-input-range/react-input-range.d.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/Components/TrayRenderer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5130">
-          <caret line="270" column="37" selection-start-line="270" selection-start-column="37" selection-end-line="270" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shared/credentials.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/MailboxTargetUrl.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/MailboxWindows.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="93" column="101" selection-start-line="93" selection-start-column="101" selection-end-line="93" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/MailboxSearch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-798" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/MailboxTabSleepable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="101" column="25" selection-start-line="101" selection-start-column="15" selection-end-line="101" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/MailboxTab.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7980" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxDocsTab.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="65" column="13" lean-forward="true" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxMapsTab.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packager/deb/postinst">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/packager/linux/openwmail.desktop">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/packager/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packager/Distribution.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4700" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        <state relative-caret-position="190">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -597,44 +455,230 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker/node/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/scenes/mailboxes/mailboxes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="908581">
-          <caret line="47943" selection-start-line="47943" selection-end-line="47943" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/package.json">
+    <entry file="file://$PROJECT_DIR$/src/scenes/platform/src/webviewInjection/Browser/Browser.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/webpack.config.js">
+    <entry file="file://$PROJECT_DIR$/src/app/node_modules/wmail-spellchecker/native/linux_x64/nodehun.node" />
+    <entry file="file://$PROJECT_DIR$/bin/scenes/mailboxes/mailboxes.js" />
+    <entry file="file://$PROJECT_DIR$/src/app/node_modules/wmail-spellchecker/index.js" />
+    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxChatTab.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="78" column="47" selection-start-line="78" selection-start-column="41" selection-end-line="78" selection-end-column="47" />
+        <state relative-caret-position="1501">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxCommunicationTab.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxContactsTab.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxMailTab.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+        <state relative-caret-position="3724">
+          <caret line="196" column="42" selection-start-line="196" selection-start-column="42" selection-end-line="196" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/MailboxTab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4389">
+          <caret line="231" column="2" selection-start-line="231" selection-start-column="2" selection-end-line="231" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/Components/WebView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2470">
+          <caret line="130" column="49" selection-start-line="130" selection-start-column="35" selection-end-line="130" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/platform/src/webviewInjection/elconsole.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Mailbox/Google/GoogleMailboxCalendarTab.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/platform/src/webviewInjection/googleMail.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/platform/src/webviewInjection/Browser/ContextMenu.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/platform/src/webviewInjection/Browser/DictionaryLoad.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/platform/src/webviewInjection/Browser/KeyboardNavigator.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/node/js-eslint">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/node/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/credentials.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="41" column="45" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/platform/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/electron/electron.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/nodehun/build/Release/nodehun.node">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/nodehun/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/nodehun/.gitmodules">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/nodehun/appveyor.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/nodehun/binding.gyp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/nodehun/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-631" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packager/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packager/Distribution.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-627" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packager/TaskLogger.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-221" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packager/ReleaseAssets.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packager/Licenses.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packager/JSBuilder.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packager/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packager/ElectronBuilder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="86" column="63" selection-start-line="86" selection-start-column="63" selection-end-line="86" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snap/snapcraft.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snap/gui/app.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snap/gui/openWMail.desktop">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/platform/src/webviewInjection/Browser/Spellchecker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="48" column="28" lean-forward="true" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+        <state relative-caret-position="266">
+          <caret line="56" column="34" lean-forward="true" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/Models/Settings/TraySettings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scenes/mailboxes/src/ui/Settings/General/TraySettingsSection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
         </state>
       </provider>
     </entry>

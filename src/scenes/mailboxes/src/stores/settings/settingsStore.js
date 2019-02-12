@@ -32,49 +32,40 @@ class SettingsStore {
       return {
         readColor: systemPreferences.isDarkMode() ? '#FFFFFF' : '#000000',
         readBackgroundColor: 'transparent',
-        unreadColor: '#C82018',
-        unreadBackgroundColor: 'transparent',
-        unreadRadius: 5,
-        readRadius: 5
+        unreadColor: '#FFFFFF',
+        unreadBackgroundColor: '#FF3F3F',
+        unreadRadius: 2,
+        readRadius: 2
       }
     } else if (process.platform === 'win32') {
       // Windows is predominantely dark themed, but with no way to check assume it is
       return {
         readColor: '#FFFFFF',
         readBackgroundColor: 'transparent',
-        unreadColor: '#C82018',
-        unreadBackgroundColor: 'transparent',
-        unreadRadius: 5,
-        readRadius: 5
-      }
-    } else if (process.platform === 'linux') {
-      let isDark = false
-      // GTK
-      try {
-        const gtkConf = fs.readFileSync(homeDir('.config/gtk-3.0/settings.ini'), 'utf8')
-        if (gtkConf.indexOf('gtk-application-prefer-dark-theme=1') !== -1) {
-          isDark = true
-        }
-      } catch (ex) { }
-
-      return {
-        readColor: '#FFFFFF',
-        readBackgroundColor: '#949494',
         unreadColor: '#FFFFFF',
         unreadBackgroundColor: '#FF3F3F',
-        unreadRadius: 5,
-        readRadius: 5
+        unreadRadius: 2,
+        readRadius: 2
+      }
+    } else if (process.platform === 'linux') {
+      return {
+        readColor: '#FFFFFF',
+        readBackgroundColor: 'transparent',
+        unreadColor: '#FFFFFF',
+        unreadBackgroundColor: '#FF3F3F',
+        unreadRadius: 2,
+        readRadius: 2
       }
     }
 
     // Catch all
     return {
-      readColor: '#000000',
+      readColor: '#FFFFFF',
       readBackgroundColor: 'transparent',
-      unreadColor: '#C82018',
-      unreadBackgroundColor: 'transparent',
-      unreadRadius: 5,
-      readRadius: 5
+      unreadColor: '#FFFFFF',
+      unreadBackgroundColor: '#FF3F3F',
+      unreadRadius: 2,
+      readRadius: 2
     }
   }
 
